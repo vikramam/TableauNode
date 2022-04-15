@@ -63,7 +63,7 @@ router.get('/getsite', function(req, res) {
 
 router.post('/adduser', function(req, res) {
   
-  var urlToCall = "http://myUrlToCall";
+  var urlToCall = "http://myUrlToCall"; 
   doCall(urlToCall, function(response2){
     // Here you have access to your variable
     console.log(response2);
